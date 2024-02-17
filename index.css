@@ -1,0 +1,377 @@
+             /*//////GENERAL STYLE///////////S*/
+body{
+margin: 0%;
+padding: 0%;
+border: 0px;
+min-width: 280px;
+width: 100%;
+}
+h2{
+    text-align: center;
+}
+
+.About_footerTittle{
+text-align: center;
+    margin-top:0px;
+    padding-top: 20px;
+
+}
+
+.credit{
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0%;
+    }
+
+a{
+    text-decoration: none;
+}
+
+.navList_ContactButton{
+    margin: 5px;
+    background-color:  rgb(88, 6, 84);
+    border: 0cap;
+    border-style: none;
+    width: 40vw;
+    color: white;
+}
+
+footer{
+    background-color: rgb(88, 6, 84);
+}
+
+form{
+    padding: 20px;
+}
+#name, #message, #email{
+    border-style: none;
+}
+
+
+                /*//INDEX PAGE/*/
+/*note that some of the index page styling has styles shared across multiple pages*/
+
+
+
+
+
+
+
+#index_header{
+    height: 30vh;
+    width: 100vw;
+    background-color: rgb(88, 6, 84);
+    margin:0%;
+    padding: 0%;
+    border: 0px;
+    position:relative;
+}
+
+
+.header_icons{
+    width: 100%;
+    max-height: 10vh;
+    position: absolute;
+    }
+
+.headericon{
+    width:15px;
+    padding: 0%; border:0px;
+}
+
+.headericon1, .headericon2, .headericon3{ 
+    margin-top: 20px; padding: 0%; border: 0px;
+    display: inline-block;
+}
+
+.headericon1{
+    margin-left: 30px;
+}
+
+.headericon2{
+    float: right;
+    margin:15px;
+   /* margin-right: 15px;*/
+}
+
+.headericon3{
+    float: right;
+    margin: 15px;
+   /*  margin-right: 30px;*/
+}
+
+
+/*nav bar*/
+#nav_bar, #about_nav_bar{
+    position:absolute;
+    width: 100%;
+    top: 0%;
+    background-color: aliceblue;
+    z-index: 1;
+    display: none;
+}
+
+#nav_bar_InnerButton, #about_nav_bar_InnerButton{
+    position: absolute;
+    top:10%;
+    left: 90%;
+    
+
+}   
+
+.nav_list{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.nav_button{
+    text-align: center;
+}
+
+.li_list{
+    margin: 5px 0px;
+    text-align: center;
+}
+
+/*profile picture*/
+.profile_pictureContainer{
+    
+    width: 200px;
+    height:200px;
+    background-color:whitesmoke;
+    border-radius: 49%;
+    position: relative;
+    
+    top:50%;
+    border-style:solid;
+    border-width: thick;
+    border-color:rgb(88, 6, 84);
+    margin: 0% auto 0% auto;
+    padding: 0%;
+}
+
+.profile_picture{
+    width:85%;
+    border-radius: 50%;
+    position: relative;
+    top: 5.5%;
+    left: 5.5%;
+    border-style:solid;
+    border-width: thick;
+    border-color:rgb(88, 6, 84);
+
+
+}
+
+#index_main{
+    width: 100vw;
+    margin:0%;
+    padding: 0%;
+    border-style: solid;
+    border-width:0px 0px 2px 0px;
+    border-color:rgb(88, 6, 84);
+    padding-top: 120px;}
+
+
+
+.index_writeup{
+    position: relative;
+    top: 30%;
+    margin:0%;
+    text-align: center;
+    padding-top: 20px;
+    }
+
+.name{
+    font-size: xx-large;
+    }
+.text_front-endWebdeveloper{
+    font-weight: 600;
+    margin: 10px;
+}
+
+.index_icons_container, .about_contactButton{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    }
+
+.index_icons{
+    width:20px;
+    margin:10px;
+   }
+
+.index_button, .servicesIoffer_button{
+    width:45%;
+    border-style: none;
+    background-color:rgb(88, 6, 84);
+     position: relative;
+    top: 50%;
+    left: 27.5%;
+    padding:8px;
+    margin-top: 40px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+hr{
+    background-color:rgb(88, 6, 84);
+    height: 0.3em;
+    margin-top: 60px;
+}
+
+.servicesIoffer{
+    width: 80vw;
+    margin-left: 5%;
+    text-align: justify;
+    word-wrap: break-word;  
+    justify-content: left;
+     padding:20px;
+    box-shadow: 5px 5px 5px rgb(226, 223, 223), -5px -5px 5px rgb(226, 223, 223);
+}
+
+
+
+
+                                    /*ABOUT PAGE*/
+
+    #about_body, #contactPage_body{
+        background-color: rgb(145, 207, 207);
+        margin: 0%;
+        padding: 0%;
+        border: 0ch;
+        position: absolute;
+    }
+
+
+.heading_MyPersonalInformation, .portfolio_h1, #contactPage_h1{
+    font-size: x-large;
+    word-wrap: break-word;
+    text-align: center;
+    padding-top:60px ;
+    margin: auto 20px;
+    
+}
+
+.about_meText{
+    word-wrap: break-word;
+    text-align: center;
+    margin: 10px;
+    
+}    
+
+#about_Header, #port_Header{
+    height: 9vh;
+    width: 100vw;
+    margin:0%;
+    padding: 0%;
+    border: 0px;
+    position:relative;
+} 
+
+#about_main{
+    margin-top: 140px;
+    padding-top: 140px;
+    width: 100vw;
+    position:static;   
+
+}
+
+.about_contactButton{
+    width:45%;
+    border-style: none;
+    background-color:rgb(88, 6, 84);
+     position: relative;
+    top: 30%;
+    left: 27.5%;
+    padding:8px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+.about_icon{
+    width:15px;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.header_mySkills{
+    text-align: center;
+     margin-top:50px;
+}
+
+
+.myskill_icons{
+    padding:0px ;
+    margin-bottom: 50px;
+    display: grid;
+    grid-row-gap: 50px;
+    justify-content: space-evenly;
+    align-content: center;
+    grid-template-columns: auto  auto auto;
+    grid-template-rows: auto auto;
+} 
+
+.About_footerLinks, .About_footerIcons{
+    padding:0px ;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: space-evenly;
+    align-content: center;
+    grid-template-columns: auto  auto auto;
+    grid-template-rows: auto auto;
+
+}
+
+                    /*///////PORTFOLIO page/////*/
+
+#body_portfolio{
+    background-color: rgb(113, 102, 218);
+}
+
+.portfolio_projectImages{
+    width: 80vw;
+    margin: 0%; padding: 0%;
+}
+
+.div_Portfolio_projectImages{
+    position: relative;
+}
+.portfolio_projectImages_buttonIcon{
+    position: absolute;
+    top: 1%;
+    left: 60%;
+    width: 50px;
+    opacity: 0.8;
+}
+
+.container_Portfolio_projectImages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.portfolio_projectImageName{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+                /*///CONTACT PAGE////*/
+
+.contactPage_buttonContainer{
+    text-align: center;
+}
+.contactPage_button{
+    background-color: rgb(113, 102, 218);
+    border-style: none;
+    color: white;
+    width: 100%;
+    height: 10vw;
+}
